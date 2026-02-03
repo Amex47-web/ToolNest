@@ -1,0 +1,4073 @@
+[
+  {
+    "id": "1",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "OpenAI's advanced language model for natural conversations and content generation.",
+    "categories": [
+      "Chat",
+      "Copywriting",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://chat.openai.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "tags": [
+      "LLM",
+      "AI Chat",
+      "OpenAI"
+    ],
+    "featured": true,
+    "rating": 4.4,
+    "reviewCount": 414,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-04-09",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-31",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-05",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-20",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "Generates high-quality images from text descriptions through Discord.",
+    "categories": [
+      "Image Generation",
+      "Art"
+    ],
+    "pricing": "Paid",
+    "website": "https://midjourney.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Midjourney_Emblem.png",
+    "tags": [
+      "Art",
+      "Design",
+      "Discord"
+    ],
+    "rating": 4.3,
+    "reviewCount": 4126,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-28",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-04",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-11",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Jasper",
+    "slug": "jasper",
+    "description": "AI copywriter for marketing, blog posts, and social media content.",
+    "categories": [
+      "Copywriting",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://jasper.ai",
+    "logo": "https://assets-global.website-files.com/60e5f2de611ae23b7e90e633/60e5f2de611ae24f5e90e66b_Jasper-Logo-Dark.svg",
+    "tags": [
+      "Marketing",
+      "Writing",
+      "SEO"
+    ],
+    "rating": 4.9,
+    "reviewCount": 3483,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-02-10",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-08",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "description": "Your AI pair programmer that suggests code and entire functions in real-time.",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "pricing": "Paid",
+    "website": "https://github.com/features/copilot",
+    "logo": "https://github.githubassets.com/images/modules/site/copilot/copilot.png",
+    "tags": [
+      "Coding",
+      "Programming",
+      "GitHub"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 3768,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-08-15",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-19",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-19",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-30",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-21",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "DALL-E 3",
+    "slug": "dalle-3",
+    "description": "OpenAI's AI system that can create realistic images and art from a description.",
+    "categories": [
+      "Image Generation",
+      "Art"
+    ],
+    "pricing": "Paid",
+    "website": "https://openai.com/dall-e-3",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/DALL-E_3_Icon.png",
+    "tags": [
+      "OpenAI",
+      "Image Gen"
+    ],
+    "rating": 4.5,
+    "reviewCount": 3759,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-07-06",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-21",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-02",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-02",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "description": "Access the limitless power of AI, right inside Notion.",
+    "categories": [
+      "Productivity",
+      "Copywriting"
+    ],
+    "pricing": "Paid",
+    "website": "https://notion.so/product/ai",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "tags": [
+      "Notes",
+      "Workspace"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2434,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-10-26",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-08-29",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-08",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-20",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "description": "Deep learning text-to-image model allowing for generation of detailed images.",
+    "categories": [
+      "Image Generation",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "website": "https://stability.ai",
+    "logo": "https://stability.ai/images/stability-logo.png",
+    "tags": [
+      "Open Source",
+      "Art"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2576,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-06-04",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-20",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-30",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Synthesia",
+    "slug": "synthesia",
+    "description": "Create professional AI videos from text in 120+ languages.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://synthesia.io",
+    "logo": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/61dc0796f359b6695cc06ea9_Synthesia%20Logo.svg",
+    "tags": [
+      "Avatars",
+      "Video Gen"
+    ],
+    "rating": 4.1,
+    "reviewCount": 3550,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-05-13",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-06",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-20",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-05",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Runway",
+    "slug": "runway",
+    "description": "Applies artificial intelligence to video editing and content creation.",
+    "categories": [
+      "Video",
+      "Editor"
+    ],
+    "pricing": "Freemium",
+    "website": "https://runwayml.com",
+    "logo": "https://runwayml.com/images/logo.svg",
+    "tags": [
+      "Video Editing",
+      "VFX"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2057,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-12-28",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-10-05",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-07-27",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-31",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-13",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "description": "AI powered writing assistant that reviews spelling, grammar, punctuation, and clarity.",
+    "categories": [
+      "Writing",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://grammarly.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Grammarly_logo.svg",
+    "tags": [
+      "Grammar",
+      "Editor"
+    ],
+    "rating": 4,
+    "reviewCount": 305,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-28",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-24",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-26",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Canva Magic Studio",
+    "slug": "canva-magic",
+    "description": "A suite of AI-powered tools within Canva for design and content creation.",
+    "categories": [
+      "Design",
+      "Image Generation"
+    ],
+    "pricing": "Freemium",
+    "website": "https://canva.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
+    "tags": [
+      "Design",
+      "Social Media"
+    ],
+    "rating": 4.6,
+    "reviewCount": 2121,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-05-08",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-16",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-17",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Perplexity AI",
+    "slug": "perplexity",
+    "description": "An AI-powered search engine that provides direct answers with citations.",
+    "categories": [
+      "Search",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "website": "https://perplexity.ai",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Perplexity_AI_logo.svg",
+    "tags": [
+      "Search",
+      "Research"
+    ],
+    "featured": true,
+    "rating": 4.5,
+    "reviewCount": 777,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-08-09",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-19",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-07",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-27",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Claude",
+    "slug": "claude",
+    "description": "Anthropic's next-generation AI assistant for tasks at any scale.",
+    "categories": [
+      "Chat",
+      "Copywriting"
+    ],
+    "pricing": "Freemium",
+    "website": "https://anthropic.com/claude",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+    "tags": [
+      "LLM",
+      "Ethical AI"
+    ],
+    "rating": 4.9,
+    "reviewCount": 1543,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-08-07",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-02",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-16",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "description": "Presentation software that uses AI to design your slides.",
+    "categories": [
+      "Productivity",
+      "Design"
+    ],
+    "pricing": "Paid",
+    "website": "https://beautiful.ai",
+    "logo": "https://www.beautiful.ai/assets/images/logo.svg",
+    "tags": [
+      "Presentations",
+      "Slides"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1620,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-05-30",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-20",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-15",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-25",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI meeting assistant that records audio, writes notes, and generates summaries.",
+    "categories": [
+      "Productivity",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "website": "https://otter.ai",
+    "logo": "https://otter.ai/static/images/logo_icon_blue.svg",
+    "tags": [
+      "Transcription",
+      "Meetings"
+    ],
+    "rating": 5,
+    "reviewCount": 3968,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-24",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-06",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Copy.ai",
+    "slug": "copy-ai",
+    "description": "Generates high-converting marketing copy in seconds.",
+    "categories": [
+      "Copywriting",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://copy.ai",
+    "logo": "https://assets-global.website-files.com/628288c5cd3e8411b90328a9/628288c5cd3e847a980328b0_Copy.ai-Logo.svg",
+    "tags": [
+      "Ads",
+      "Blog"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4511,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-22",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-15",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-15",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "ElevenLabs",
+    "slug": "elevenlabs",
+    "description": "The most realistic and versatile AI speech software.",
+    "categories": [
+      "Audio",
+      "Voice"
+    ],
+    "pricing": "Freemium",
+    "website": "https://elevenlabs.io",
+    "logo": "https://elevenlabs.io/images/logo.png",
+    "tags": [
+      "TTS",
+      "Voice Cloning"
+    ],
+    "rating": 4.4,
+    "reviewCount": 842,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-07-03",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-18",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-03",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-08",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Descript",
+    "slug": "descript",
+    "description": "One tool for writing, recording, transcribing, editing, and sharing videos and podcasts.",
+    "categories": [
+      "Video",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "website": "https://descript.com",
+    "logo": "https://www.descript.com/static/images/logo-icon.svg",
+    "tags": [
+      "Editing",
+      "Transcription"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4111,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-03-15",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-04",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Lumen5",
+    "slug": "lumen5",
+    "description": "Turn blog posts into engaging videos for social media.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://lumen5.com",
+    "logo": "https://lumen5.com/learn/wp-content/uploads/2019/05/lumen5-logo-square.png",
+    "tags": [
+      "Social Media",
+      "Video"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1944,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-08-29",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-13",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-23",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-20",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Fireflies.ai",
+    "slug": "fireflies-ai",
+    "description": "Automate your meeting notes. Fireflies records, transcribes, and analyzes meetings.",
+    "categories": [
+      "Productivity",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "website": "https://fireflies.ai",
+    "logo": "https://fireflies.ai/images/logo/logo-main.svg",
+    "tags": [
+      "Meetings",
+      "Notes"
+    ],
+    "rating": 5,
+    "reviewCount": 667,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-02-09",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-01-20",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-03",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Tome",
+    "slug": "tome",
+    "description": "AI-powered storytelling format that lets you build presentations and documents.",
+    "categories": [
+      "Productivity",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "website": "https://tome.app",
+    "logo": "https://tome.app/favicon.ico",
+    "tags": [
+      "Storytelling",
+      "Slides"
+    ],
+    "rating": 4.1,
+    "reviewCount": 3797,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-08-20",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-14",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-17",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Pika",
+    "slug": "pika",
+    "description": "An idea-to-video platform that brings your creativity to motion.",
+    "categories": [
+      "Video",
+      "Image Generation"
+    ],
+    "pricing": "Paid",
+    "website": "https://pika.art",
+    "logo": "https://pika.art/favicon.ico",
+    "tags": [
+      "Animation",
+      "3D"
+    ],
+    "rating": 4.7,
+    "reviewCount": 1124,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-20",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-19",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Suno",
+    "slug": "suno",
+    "description": "Make a song about anything with AI.",
+    "categories": [
+      "Audio",
+      "Music"
+    ],
+    "pricing": "Freemium",
+    "website": "https://suno.com",
+    "logo": "https://suno.com/favicon.ico",
+    "tags": [
+      "Music",
+      "Generation"
+    ],
+    "rating": 4.9,
+    "reviewCount": 2377,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-09-03",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-08-21",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-07",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-30",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-04",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Udio",
+    "slug": "udio",
+    "description": "Create music with AI. Udio builds tools to enable anyone to create amazing music.",
+    "categories": [
+      "Audio",
+      "Music"
+    ],
+    "pricing": "Free",
+    "website": "https://udio.com",
+    "logo": "https://udio.com/favicon.ico",
+    "tags": [
+      "Music",
+      "Generation"
+    ],
+    "rating": 4.6,
+    "reviewCount": 309,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-11",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-14",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-03",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-29",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Codeium",
+    "slug": "codeium",
+    "description": "Free AI code acceleration toolkit for developers.",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "pricing": "Free",
+    "website": "https://codeium.com",
+    "logo": "https://codeium.com/favicon.ico",
+    "tags": [
+      "Coding",
+      "IDE Plugin"
+    ],
+    "rating": 4.3,
+    "reviewCount": 3532,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-09-24",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-08",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-21",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-25",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-10",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Cursor",
+    "slug": "cursor",
+    "description": "The AI-first code editor built for pair programming.",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "pricing": "Freemium",
+    "website": "https://cursor.sh",
+    "logo": "https://cursor.sh/favicon.ico",
+    "tags": [
+      "IDE",
+      "Coding"
+    ],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 1635,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-05-07",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-03",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-08",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "V0",
+    "slug": "v0-dev",
+    "description": "Generate UI with simple text prompts. Copy, paste, ship.",
+    "categories": [
+      "Design",
+      "Code Assistant"
+    ],
+    "pricing": "Freemium",
+    "website": "https://v0.dev",
+    "logo": "https://v0.dev/favicon.ico",
+    "tags": [
+      "UI",
+      "Frontend"
+    ],
+    "rating": 4.8,
+    "reviewCount": 4566,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-11-07",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-12",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-25",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-25",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-07",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "description": "Go from text to speech with a versatile AI voice generator.",
+    "categories": [
+      "Audio",
+      "Voice"
+    ],
+    "pricing": "Freemium",
+    "website": "https://murf.ai",
+    "logo": "https://murf.ai/favicon.ico",
+    "tags": [
+      "TTS",
+      "Voice Over"
+    ],
+    "rating": 4.9,
+    "reviewCount": 1649,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-03-24",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-04",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "description": "The AI community building the future. Models, datasets, and apps.",
+    "categories": [
+      "Developer Tools",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "website": "https://huggingface.co",
+    "logo": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "tags": [
+      "ML",
+      "Models"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1411,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-09-20",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-24",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-24",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-01",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-15",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Replit",
+    "slug": "replit",
+    "description": "Build software collaboratively from anywhere.",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "pricing": "Freemium",
+    "website": "https://replit.com",
+    "logo": "https://replit.com/favicon.ico",
+    "tags": [
+      "IDE",
+      "Cloud"
+    ],
+    "rating": 4.9,
+    "reviewCount": 4442,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-05-12",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-25",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "A new medium for presenting ideas, powered by AI.",
+    "categories": [
+      "Productivity",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "website": "https://gamma.app",
+    "logo": "https://gamma.app/favicon.ico",
+    "tags": [
+      "Presentations",
+      "Docs"
+    ],
+    "rating": 4.6,
+    "reviewCount": 1185,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-08-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-27",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-26",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-21",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-28",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Writesonic",
+    "slug": "writesonic",
+    "description": "AI writer to create SEO-friendly content for blogs, Facebook ads, Google ads, and Shopify.",
+    "categories": [
+      "Copywriting",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://writesonic.com",
+    "logo": "https://writesonic.com/favicon.ico",
+    "tags": [
+      "SEO",
+      "Content"
+    ],
+    "rating": 4.4,
+    "reviewCount": 4436,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-06-21",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-04-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-30",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-23",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-17",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Surfer SEO",
+    "slug": "surfer-seo",
+    "description": "Tool that helps you research, write, and optimize content for SEO.",
+    "categories": [
+      "SEO",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://surferseo.com",
+    "logo": "https://surferseo.com/favicon.ico",
+    "tags": [
+      "Optimization",
+      "Rankings"
+    ],
+    "rating": 4.9,
+    "reviewCount": 1651,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-26",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-20",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-08",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Semrush",
+    "slug": "semrush",
+    "description": "Online visibility management matching SaaS platform.",
+    "categories": [
+      "SEO",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://semrush.com",
+    "logo": "https://semrush.com/favicon.ico",
+    "tags": [
+      "Analytics",
+      "Keywords"
+    ],
+    "rating": 4.8,
+    "reviewCount": 4329,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-18",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-13",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-13",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Rytr",
+    "slug": "rytr",
+    "description": "AI writing assistant that helps you create high-quality content.",
+    "categories": [
+      "Copywriting",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://rytr.me",
+    "logo": "https://rytr.me/favicon.ico",
+    "tags": [
+      "Writing",
+      "Emails"
+    ],
+    "rating": 4.1,
+    "reviewCount": 3435,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-02-27",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-19",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Quillbot",
+    "slug": "quillbot",
+    "description": "Paraphrasing tool that helps you write better and faster.",
+    "categories": [
+      "Writing",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://quillbot.com",
+    "logo": "https://quillbot.com/favicon.ico",
+    "tags": [
+      "Paraphrase",
+      "Student"
+    ],
+    "rating": 4.5,
+    "reviewCount": 3782,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-31",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-07-09",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-02",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-07",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Looka",
+    "slug": "looka",
+    "description": "AI-powered platform to design a brand and website you love.",
+    "categories": [
+      "Design",
+      "Branding"
+    ],
+    "pricing": "Paid",
+    "website": "https://looka.com",
+    "logo": "https://looka.com/favicon.ico",
+    "tags": [
+      "Logo",
+      "Identity"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2311,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-08-17",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-28",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-08",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-12",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Brandmark",
+    "slug": "brandmark",
+    "description": "The most advanced AI logo design tool.",
+    "categories": [
+      "Design",
+      "Branding"
+    ],
+    "pricing": "Paid",
+    "website": "https://brandmark.io",
+    "logo": "https://brandmark.io/favicon.ico",
+    "tags": [
+      "Logo",
+      "Creative"
+    ],
+    "rating": 4.2,
+    "reviewCount": 1918,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-06-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-15",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-21",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Khroma",
+    "slug": "khroma",
+    "description": "The AI color tool for designers.",
+    "categories": [
+      "Design",
+      "Art"
+    ],
+    "pricing": "Free",
+    "website": "https://khroma.co",
+    "logo": "https://khroma.co/favicon.ico",
+    "tags": [
+      "Color",
+      "Palettes"
+    ],
+    "rating": 4.2,
+    "reviewCount": 1378,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-06-04",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-29",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-27",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "description": "Generative AI for creators, powered by Adobe.",
+    "categories": [
+      "Image Generation",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "website": "https://firefly.adobe.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png",
+    "tags": [
+      "Adobe",
+      "Creative Cloud"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2024,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-12-02",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-09-14",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-05",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-11",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-30",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "name": "DeepL",
+    "slug": "deepl",
+    "description": "The world's most accurate translator.",
+    "categories": [
+      "Writing",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://deepl.com",
+    "logo": "https://deepl.com/favicon.ico",
+    "tags": [
+      "Translation",
+      "Language"
+    ],
+    "rating": 5,
+    "reviewCount": 4218,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-22",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-06-25",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-16",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-19",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-18",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Bing Chat",
+    "slug": "bing-chat",
+    "description": "Microsoft's AI-powered copilot for the web.",
+    "categories": [
+      "Chat",
+      "Search"
+    ],
+    "pricing": "Free",
+    "website": "https://bing.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg",
+    "tags": [
+      "Microsoft",
+      "GPT-4"
+    ],
+    "rating": 5,
+    "reviewCount": 2378,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-10-08",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-05",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-11",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-31",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-17",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Google Gemini",
+    "slug": "google-gemini",
+    "description": "Google's most capable and general AI model.",
+    "categories": [
+      "Chat",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://gemini.google.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg",
+    "tags": [
+      "Google",
+      "LLM"
+    ],
+    "rating": 4.5,
+    "reviewCount": 778,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-05-17",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-05",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-04",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-07",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Character.ai",
+    "slug": "character-ai",
+    "description": "Chat with open-ended conversational applications (or characters) that have a personality.",
+    "categories": [
+      "Chat",
+      "Entertainment"
+    ],
+    "pricing": "Freemium",
+    "website": "https://character.ai",
+    "logo": "https://character.ai/favicon.ico",
+    "tags": [
+      "Persona",
+      "Fun"
+    ],
+    "rating": 4.2,
+    "reviewCount": 246,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-06-20",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-06-08",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-03",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-01-06",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-03",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Replika",
+    "slug": "replika",
+    "description": "The AI companion who cares. Always here to listen and talk.",
+    "categories": [
+      "Chat",
+      "Entertainment"
+    ],
+    "pricing": "Freemium",
+    "website": "https://replika.com",
+    "logo": "https://replika.com/favicon.ico",
+    "tags": [
+      "Companion",
+      "Social"
+    ],
+    "rating": 4.8,
+    "reviewCount": 4242,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-09-18",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-08-03",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-10",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-05",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-02",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Soundraw",
+    "slug": "soundraw",
+    "description": "AI music generator for creators.",
+    "categories": [
+      "Audio",
+      "Music"
+    ],
+    "pricing": "Paid",
+    "website": "https://soundraw.io",
+    "logo": "https://soundraw.io/favicon.ico",
+    "tags": [
+      "Music",
+      "Royalty Free"
+    ],
+    "rating": 4.4,
+    "reviewCount": 4079,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-08-29",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-06-06",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-24",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Mubert",
+    "slug": "mubert",
+    "description": "Generative music for content creators, brands, and developers.",
+    "categories": [
+      "Audio",
+      "Music"
+    ],
+    "pricing": "Freemium",
+    "website": "https://mubert.com",
+    "logo": "https://mubert.com/favicon.ico",
+    "tags": [
+      "Streaming",
+      "API"
+    ],
+    "rating": 4,
+    "reviewCount": 4017,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-06-02",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-17",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Lalal.ai",
+    "slug": "lalal-ai",
+    "description": "Extract vocal, accompaniment and various instruments from any audio and video.",
+    "categories": [
+      "Audio",
+      "Music"
+    ],
+    "pricing": "Paid",
+    "website": "https://lalal.ai",
+    "logo": "https://lalal.ai/favicon.ico",
+    "tags": [
+      "Stem Splitter",
+      "Karaoke"
+    ],
+    "rating": 4.8,
+    "reviewCount": 3157,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-03-04",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-30",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-07",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Krisp",
+    "slug": "krisp",
+    "description": "AI-powered noise canceling app that removes background noise and echo from meetings.",
+    "categories": [
+      "Audio",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://krisp.ai",
+    "logo": "https://krisp.ai/favicon.ico",
+    "tags": [
+      "Noise Cancellation",
+      "Calls"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1321,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-03-29",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-11",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Speechify",
+    "slug": "speechify",
+    "description": "The #1 Text to Speech reader. Turn any text into audio.",
+    "categories": [
+      "Audio",
+      "Voice"
+    ],
+    "pricing": "Freemium",
+    "website": "https://speechify.com",
+    "logo": "https://speechify.com/favicon.ico",
+    "tags": [
+      "Reader",
+      "Accessibility"
+    ],
+    "rating": 4.4,
+    "reviewCount": 280,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-06-20",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-01",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-30",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Leonardo.ai",
+    "slug": "leonardo-ai",
+    "description": "Generate production-quality assets for your creative projects with AI-driven speed and style-consistency.",
+    "categories": [
+      "Image Generation",
+      "Art"
+    ],
+    "pricing": "Freemium",
+    "website": "https://leonardo.ai",
+    "logo": "https://leonardo.ai/favicon.ico",
+    "tags": [
+      "Game Assets",
+      "Design"
+    ],
+    "rating": 4.5,
+    "reviewCount": 754,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-03-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-12",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-18",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "description": "AI assistant for software developers. Code faster with whole-line and full-function code completions.",
+    "categories": [
+      "Code Assistant",
+      "Developer Tools"
+    ],
+    "pricing": "Freemium",
+    "website": "https://tabnine.com",
+    "logo": "https://tabnine.com/favicon.ico",
+    "tags": [
+      "Coding",
+      "Autocomplete"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1780,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-05-29",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-16",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-26",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-20",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-27",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Poe",
+    "slug": "poe",
+    "description": "Fast, helpful AI chat. Access GPT-4, Claude 3, and millions of other bots.",
+    "categories": [
+      "Chat",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://poe.com",
+    "logo": "https://poe.com/favicon.ico",
+    "tags": [
+      "Aggregator",
+      "Bots"
+    ],
+    "rating": 4.2,
+    "reviewCount": 2052,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-03-25",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-03",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-18",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-09",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-17",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Phind",
+    "slug": "phind",
+    "description": "The intelligent search engine for developers.",
+    "categories": [
+      "Search",
+      "Developer Tools"
+    ],
+    "pricing": "Free",
+    "website": "https://phind.com",
+    "logo": "https://phind.com/favicon.ico",
+    "tags": [
+      "Coding",
+      "Search"
+    ],
+    "rating": 4.5,
+    "reviewCount": 4049,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-12",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-04-17",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-12",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-01-23",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-11",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Kickresume",
+    "slug": "kickresume",
+    "description": "Create a beautiful resume and cover letter in seconds with AI.",
+    "categories": [
+      "Productivity",
+      "Writing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://kickresume.com",
+    "logo": "https://kickresume.com/favicon.ico",
+    "tags": [
+      "Career",
+      "Resume"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1647,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-02-03",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-24",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "name": "HeyGen",
+    "slug": "heygen",
+    "description": "Produce AI videos with perfect lip-syncing from text.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://heygen.com",
+    "logo": "https://heygen.com/favicon.ico",
+    "tags": [
+      "Avatars",
+      "Spokesperson"
+    ],
+    "rating": 5,
+    "reviewCount": 1000,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-09-01",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-20",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-01",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-10",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Krea AI",
+    "slug": "krea-ai",
+    "description": "Real-time generation and enhancement for images and videos.",
+    "categories": [
+      "Image Generation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "website": "https://krea.ai",
+    "logo": "https://krea.ai/favicon.ico",
+    "tags": [
+      "Real-time",
+      "Upscaling"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1126,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-04-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-16",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-28",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-28",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Magnific AI",
+    "slug": "magnific-ai",
+    "description": "The most advanced AI upscaler and enhancer.",
+    "categories": [
+      "Image Generation",
+      "Design"
+    ],
+    "pricing": "Paid",
+    "website": "https://magnific.ai",
+    "logo": "https://magnific.ai/favicon.ico",
+    "tags": [
+      "Upscaling",
+      "Photography"
+    ],
+    "rating": 4.6,
+    "reviewCount": 4999,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-08-28",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-27",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-03",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-30",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-26",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "name": "ChatPDF",
+    "slug": "chatpdf",
+    "description": "Chat with any PDF. Fast, easy, and free.",
+    "categories": [
+      "Productivity",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "website": "https://chatpdf.com",
+    "logo": "https://chatpdf.com/favicon.ico",
+    "tags": [
+      "PDF",
+      "Documents"
+    ],
+    "rating": 4,
+    "reviewCount": 4453,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-04-07",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-05",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-07",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-05",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "name": "SheetAI",
+    "slug": "sheetai",
+    "description": "Unlock the power of AI in Google Sheets.",
+    "categories": [
+      "Productivity",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "website": "https://sheetai.app",
+    "logo": "https://sheetai.app/favicon.ico",
+    "tags": [
+      "Spreadsheets",
+      "Automation"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1827,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-11-27",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-10-16",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-08-07",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-11",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-21",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "name": "SlidesAI",
+    "slug": "slidesai",
+    "description": "Create presentation slides with AI in seconds.",
+    "categories": [
+      "Productivity",
+      "Design"
+    ],
+    "pricing": "Freemium",
+    "website": "https://slidesai.io",
+    "logo": "https://slidesai.io/favicon.ico",
+    "tags": [
+      "Google Slides",
+      "PowerPoint"
+    ],
+    "rating": 4,
+    "reviewCount": 2042,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-08-12",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-23",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-26",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Compose AI",
+    "slug": "compose-ai",
+    "description": "AI-powered writing extension that cuts your writing time by 40%.",
+    "categories": [
+      "Writing",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "website": "https://compose.ai",
+    "logo": "https://compose.ai/favicon.ico",
+    "tags": [
+      "Email",
+      "Extension"
+    ],
+    "rating": 4.7,
+    "reviewCount": 2841,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-06-01",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-02",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-16",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "name": "AdCreative.ai",
+    "slug": "adcreative-ai",
+    "description": "Generate conversion-focused ad creatives and social media post creatives in a matter of seconds.",
+    "categories": [
+      "Marketing",
+      "Design"
+    ],
+    "pricing": "Paid",
+    "website": "https://adcreative.ai",
+    "logo": "https://adcreative.ai/favicon.ico",
+    "tags": [
+      "Ads",
+      "Social Media"
+    ],
+    "rating": 4.1,
+    "reviewCount": 4276,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-06-14",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-02",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-20",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Originality.ai",
+    "slug": "originality-ai",
+    "description": "The most accurate AI content detector and plagiarism checker.",
+    "categories": [
+      "Writing",
+      "SEO"
+    ],
+    "pricing": "Paid",
+    "website": "https://originality.ai",
+    "logo": "https://originality.ai/favicon.ico",
+    "tags": [
+      "Detection",
+      "Plagiarism"
+    ],
+    "rating": 4.3,
+    "reviewCount": 2822,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-02-28",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-21",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Undetectable.ai",
+    "slug": "undetectable-ai",
+    "description": "Bypass AI detectors and humanize your AI content.",
+    "categories": [
+      "Writing",
+      "SEO"
+    ],
+    "pricing": "Paid",
+    "website": "https://undetectable.ai",
+    "logo": "https://undetectable.ai/favicon.ico",
+    "tags": [
+      "Humanizer",
+      "Paraphrase"
+    ],
+    "rating": 4.2,
+    "reviewCount": 142,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-03-28",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-13",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "name": "InVideo",
+    "slug": "invideo",
+    "description": "Create publish-worthy videos on Day 1 with AI.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://invideo.io",
+    "logo": "https://invideo.io/favicon.ico",
+    "tags": [
+      "Video Editor",
+      "Templates"
+    ],
+    "rating": 4.3,
+    "reviewCount": 3357,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-07-02",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-21",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-11",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-18",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Pictory",
+    "slug": "pictory",
+    "description": "Automatically create short, highly-sharable branded videos from your long form content.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Paid",
+    "website": "https://pictory.ai",
+    "logo": "https://pictory.ai/favicon.ico",
+    "tags": [
+      "Repurposing",
+      "Social"
+    ],
+    "rating": 4.6,
+    "reviewCount": 138,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-06-01",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-31",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-22",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Clipchamp",
+    "slug": "clipchamp",
+    "description": "The online video editor tailored to your needs.",
+    "categories": [
+      "Video",
+      "Editor"
+    ],
+    "pricing": "Freemium",
+    "website": "https://clipchamp.com",
+    "logo": "https://clipchamp.com/favicon.ico",
+    "tags": [
+      "Microsoft",
+      "Simple"
+    ],
+    "rating": 4.9,
+    "reviewCount": 507,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-02-28",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-10",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Opus Clip",
+    "slug": "opus-clip",
+    "description": "AI video repurposing tool that turns long videos into shorts.",
+    "categories": [
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "website": "https://opus.pro",
+    "logo": "https://opus.pro/favicon.ico",
+    "tags": [
+      "Shorts",
+      "TikTok"
+    ],
+    "rating": 4.9,
+    "reviewCount": 3060,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-03-01",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-12",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Veed.io",
+    "slug": "veed-io",
+    "description": "Simple free online video editor.",
+    "categories": [
+      "Video",
+      "Editor"
+    ],
+    "pricing": "Freemium",
+    "website": "https://veed.io",
+    "logo": "https://veed.io/favicon.ico",
+    "tags": [
+      "Subtitles",
+      "Editing"
+    ],
+    "rating": 4.6,
+    "reviewCount": 3223,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-11-03",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-08-13",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-09",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-12",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-20",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "name": "AgentGPT",
+    "slug": "agentgpt",
+    "description": "Assemble, configure, and deploy autonomous AI Agents in your browser.",
+    "categories": [
+      "Developer Tools",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://agentgpt.reworkd.ai",
+    "logo": "https://agentgpt.reworkd.ai/favicon.ico",
+    "tags": [
+      "Agents",
+      "Automation"
+    ],
+    "rating": 4.8,
+    "reviewCount": 1018,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-07-28",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-21",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-14",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-31",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-10",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Godmode",
+    "slug": "godmode",
+    "description": "A web platform to access the powers of AutoGPT and BabyAGI.",
+    "categories": [
+      "Developer Tools",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "website": "https://godmode.space",
+    "logo": "https://godmode.space/favicon.ico",
+    "tags": [
+      "Agents",
+      "Automation"
+    ],
+    "rating": 4.2,
+    "reviewCount": 1831,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-07-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-15",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-16",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-03",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "AutoGPT",
+    "slug": "autogpt",
+    "description": "An experimental open-source attempt to make GPT-4 fully autonomous.",
+    "categories": [
+      "Developer Tools",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "website": "https://github.com/Significant-Gravitas/Auto-GPT",
+    "logo": "https://github.githubassets.com/favicons/favicon.svg",
+    "tags": [
+      "Agents",
+      "CLI"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4970,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-02",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-18",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-15",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-28",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Zapier",
+    "slug": "zapier",
+    "description": "Automation that moves you forward. Now with AI actions.",
+    "categories": [
+      "Productivity",
+      "Automation"
+    ],
+    "pricing": "Freemium",
+    "website": "https://zapier.com",
+    "logo": "https://zapier.com/favicon.ico",
+    "tags": [
+      "Workflow",
+      "Integrations"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1713,
+    "launches": [
+      {
+        "version": "v1.2",
+        "date": "2023-03-22",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-08",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Make",
+    "slug": "make",
+    "description": "Design, build, and automate anything with your work.",
+    "categories": [
+      "Productivity",
+      "Automation"
+    ],
+    "pricing": "Freemium",
+    "website": "https://make.com",
+    "logo": "https://make.com/favicon.ico",
+    "tags": [
+      "Workflow",
+      "No-Code"
+    ],
+    "rating": 5,
+    "reviewCount": 3744,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-03-31",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-03-02",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-01-08",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-05",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Bardeen",
+    "slug": "bardeen",
+    "description": "AI automation for your browser.",
+    "categories": [
+      "Productivity",
+      "Automation"
+    ],
+    "pricing": "Freemium",
+    "website": "https://bardeen.ai",
+    "logo": "https://bardeen.ai/favicon.ico",
+    "tags": [
+      "Scraping",
+      "Extension"
+    ],
+    "rating": 4.1,
+    "reviewCount": 2346,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-02-25",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-13",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Taskade",
+    "slug": "taskade",
+    "description": "AI powered productivity. Tasks, notes, and chat in one unified workspace.",
+    "categories": [
+      "Productivity",
+      "Notes"
+    ],
+    "pricing": "Freemium",
+    "website": "https://taskade.com",
+    "logo": "https://taskade.com/favicon.ico",
+    "tags": [
+      "Collaboration",
+      "Management"
+    ],
+    "rating": 4.7,
+    "reviewCount": 75,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-23",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-27",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-15",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Mem",
+    "slug": "mem",
+    "description": "The self-organizing workspace for your personal and professional life.",
+    "categories": [
+      "Productivity",
+      "Notes"
+    ],
+    "pricing": "Freemium",
+    "website": "https://mem.ai",
+    "logo": "https://mem.ai/favicon.ico",
+    "tags": [
+      "Knowledge Base",
+      "Personal"
+    ],
+    "rating": 4.1,
+    "reviewCount": 904,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-04",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-04-27",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-20",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-04",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Rewind",
+    "slug": "rewind",
+    "description": "The search engine for your life.",
+    "categories": [
+      "Productivity",
+      "Search"
+    ],
+    "pricing": "Paid",
+    "website": "https://rewind.ai",
+    "logo": "https://rewind.ai/favicon.ico",
+    "tags": [
+      "Memory",
+      "Mac"
+    ],
+    "rating": 4.9,
+    "reviewCount": 70,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-11-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-09-08",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-12",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-20",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-10",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Browse AI",
+    "slug": "browse-ai",
+    "description": "The easiest way to extract and monitor data from any website.",
+    "categories": [
+      "Developer Tools",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "website": "https://browse.ai",
+    "logo": "https://browse.ai/favicon.ico",
+    "tags": [
+      "Scraping",
+      "No-Code"
+    ],
+    "rating": 4.5,
+    "reviewCount": 4670,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-08-15",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-06-27",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-10",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-10",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-30",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "D_ID",
+    "slug": "d-id",
+    "description": "Create and interact with talking avatars at the touch of a button.",
+    "categories": [
+      "Video",
+      "Image Generation"
+    ],
+    "pricing": "Paid",
+    "website": "https://d-id.com",
+    "logo": "https://d-id.com/favicon.ico",
+    "tags": [
+      "Avatars",
+      "Animation"
+    ],
+    "rating": 4.1,
+    "reviewCount": 3386,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-05-18",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-16",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-28",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-28",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Kaiber",
+    "slug": "kaiber",
+    "description": "Create videos from your own images and words.",
+    "categories": [
+      "Video",
+      "Art"
+    ],
+    "pricing": "Paid",
+    "website": "https://kaiber.ai",
+    "logo": "https://kaiber.ai/favicon.ico",
+    "tags": [
+      "Animation",
+      "Style Transfer"
+    ],
+    "rating": 4.1,
+    "reviewCount": 2879,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-03",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-05-05",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-04-29",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-05",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-31",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Wonder Dynamics",
+    "slug": "wonder-dynamics",
+    "description": "An AI tool that automatically animates, lights and composes CG characters into a live-action scene.",
+    "categories": [
+      "Video",
+      "VFX"
+    ],
+    "pricing": "Paid",
+    "website": "https://wonderdynamics.com",
+    "logo": "https://wonderdynamics.com/favicon.ico",
+    "tags": [
+      "VFX",
+      "Filmmaking"
+    ],
+    "rating": 5,
+    "reviewCount": 1412,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-03-31",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-03",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-08",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Adobe Photoshop",
+    "slug": "adobe-photoshop",
+    "description": "The world's best imaging and graphic design software now with Generative Fill.",
+    "categories": [
+      "Design",
+      "Image Generation"
+    ],
+    "pricing": "Paid",
+    "website": "https://adobe.com/products/photoshop",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+    "tags": [
+      "Editing",
+      "Professional"
+    ],
+    "rating": 4.5,
+    "reviewCount": 1592,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-09-14",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-11",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-06-01",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-11",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-15",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Figma",
+    "slug": "figma",
+    "description": "The leading collaborative design tool now with AI features.",
+    "categories": [
+      "Design",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://figma.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "tags": [
+      "UI/UX",
+      "Collaboration"
+    ],
+    "rating": 4.1,
+    "reviewCount": 1251,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-06-20",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-19",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-26",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-16",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-13",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Spline",
+    "slug": "spline",
+    "description": "3D design tool in the browser with real-time collaboration.",
+    "categories": [
+      "Design",
+      "3D"
+    ],
+    "pricing": "Freemium",
+    "website": "https://spline.design",
+    "logo": "https://spline.design/favicon.ico",
+    "tags": [
+      "3D",
+      "Web Design"
+    ],
+    "rating": 4.7,
+    "reviewCount": 404,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-09-03",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-03",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-07-13",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-12",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-29",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Blockade Labs",
+    "slug": "blockade-labs",
+    "description": "Generate 360° skybox worlds with AI.",
+    "categories": [
+      "3D",
+      "Image Generation"
+    ],
+    "pricing": "Freemium",
+    "website": "https://blockadelabs.com",
+    "logo": "https://blockadelabs.com/favicon.ico",
+    "tags": [
+      "Skybox",
+      "VR"
+    ],
+    "rating": 4.3,
+    "reviewCount": 4209,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-06-24",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-10",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-27",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "name": "Luma AI",
+    "slug": "luma-ai",
+    "description": "Capture the real world in lifelike 3D.",
+    "categories": [
+      "3D",
+      "Video"
+    ],
+    "pricing": "Free",
+    "website": "https://lumalabs.ai",
+    "logo": "https://lumalabs.ai/favicon.ico",
+    "tags": [
+      "NeRF",
+      "Gaussian Splatting"
+    ],
+    "rating": 5,
+    "reviewCount": 627,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-07",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-05-01",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-04",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "name": "Polycam",
+    "slug": "polycam",
+    "description": "The #1 3D scanner app for iPhone and Android.",
+    "categories": [
+      "3D",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "website": "https://polycam.ai",
+    "logo": "https://polycam.ai/favicon.ico",
+    "tags": [
+      "Scanning",
+      "LiDAR"
+    ],
+    "rating": 4.3,
+    "reviewCount": 4219,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-07-12",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-05-13",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-26",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "name": "Meshy",
+    "slug": "meshy",
+    "description": "3D AI toolkit for effortless 3D content creation.",
+    "categories": [
+      "3D",
+      "Game Dev"
+    ],
+    "pricing": "Freemium",
+    "website": "https://meshy.ai",
+    "logo": "https://meshy.ai/favicon.ico",
+    "tags": [
+      "Text to 3D",
+      "Assets"
+    ],
+    "rating": 4.7,
+    "reviewCount": 4503,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-09-07",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-14",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-18",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-02-13",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "name": "Scenario",
+    "slug": "scenario",
+    "description": "AI-generated game assets. Create consistent, high-quality assets for your games.",
+    "categories": [
+      "Game Dev",
+      "Image Generation"
+    ],
+    "pricing": "Paid",
+    "website": "https://scenario.com",
+    "logo": "https://scenario.com/favicon.ico",
+    "tags": [
+      "Assets",
+      "Gaming"
+    ],
+    "rating": 4.4,
+    "reviewCount": 4012,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-07-11",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-22",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-04-10",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-01-13",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "name": "Rosebud AI",
+    "slug": "rosebud-ai",
+    "description": "Building the AI powered game creation platform.",
+    "categories": [
+      "Game Dev",
+      "Developer Tools"
+    ],
+    "pricing": "Free",
+    "website": "https://www.rosebud.ai",
+    "logo": "https://www.rosebud.ai/favicon.ico",
+    "tags": [
+      "NPCs",
+      "Gaming"
+    ],
+    "rating": 4.2,
+    "reviewCount": 1474,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-04-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-20",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "name": "Inworld AI",
+    "slug": "inworld-ai",
+    "description": "The developer platform for AI NPCs.",
+    "categories": [
+      "Game Dev",
+      "Chat"
+    ],
+    "pricing": "Freemium",
+    "website": "https://inworld.ai",
+    "logo": "https://inworld.ai/favicon.ico",
+    "tags": [
+      "NPCs",
+      "Gaming"
+    ],
+    "rating": 4.7,
+    "reviewCount": 245,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-06-03",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-06",
+        "description": "Performance improvements and bug fixes."
+      },
+      {
+        "version": "v1.0",
+        "date": "2023-03-03",
+        "description": "Initial public release with core features."
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Layer AI",
+    "slug": "layer-ai",
+    "description": "Create professional game art in seconds.",
+    "categories": [
+      "Game Dev",
+      "Art"
+    ],
+    "pricing": "Paid",
+    "website": "https://layer.ai",
+    "logo": "https://layer.ai/favicon.ico",
+    "tags": [
+      "Assets",
+      "Gaming"
+    ],
+    "rating": 4.8,
+    "reviewCount": 268,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-10-02",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-08-22",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-08-02",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-17",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-23",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "name": "Ai21 Labs",
+    "slug": "ai21-labs",
+    "description": "Building foundation models and AI systems for the enterprise.",
+    "categories": [
+      "Developer Tools",
+      "Writing"
+    ],
+    "pricing": "Paid",
+    "website": "https://www.ai21.com",
+    "logo": "https://www.ai21.com/favicon.ico",
+    "tags": [
+      "LLM",
+      "Jurassic"
+    ],
+    "rating": 4.5,
+    "reviewCount": 2139,
+    "launches": [
+      {
+        "version": "v2.0",
+        "date": "2023-03-14",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-02-01",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "name": "Cohere",
+    "slug": "cohere",
+    "description": "The leading AI platform for enterprise.",
+    "categories": [
+      "Developer Tools",
+      "Data"
+    ],
+    "pricing": "Paid",
+    "website": "https://cohere.com",
+    "logo": "https://cohere.com/favicon.ico",
+    "tags": [
+      "LLM",
+      "Embedding"
+    ],
+    "rating": 4.6,
+    "reviewCount": 3173,
+    "launches": [
+      {
+        "version": "v2.5",
+        "date": "2023-11-19",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-09-03",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-06-24",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-30",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "name": "Scale AI",
+    "slug": "scale-ai",
+    "description": "The data platform for AI.",
+    "categories": [
+      "Developer Tools",
+      "Data"
+    ],
+    "pricing": "Paid",
+    "website": "https://scale.com",
+    "logo": "https://scale.com/favicon.ico",
+    "tags": [
+      "Labeling",
+      "RLHF"
+    ],
+    "rating": 4.5,
+    "reviewCount": 4487,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-31",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-07-28",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-25",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-19",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-07",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "name": "Weights & Biases",
+    "slug": "wandb",
+    "description": "The developer-first MLOps platform.",
+    "categories": [
+      "Developer Tools",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "website": "https://wandb.ai",
+    "logo": "https://wandb.ai/favicon.ico",
+    "tags": [
+      "MLOps",
+      "Tracking"
+    ],
+    "rating": 4.4,
+    "reviewCount": 2067,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-04-25",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-03-07",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-03",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "name": "LangChain",
+    "slug": "langchain",
+    "description": "Building applications with LLMs through composability.",
+    "categories": [
+      "Developer Tools",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "website": "https://langchain.com",
+    "logo": "https://langchain.com/favicon.ico",
+    "tags": [
+      "Framework",
+      "LLM"
+    ],
+    "rating": 4.5,
+    "reviewCount": 3594,
+    "launches": [
+      {
+        "version": "v3.0",
+        "date": "2023-07-28",
+        "description": "Next-gen model integration with 2x speed.",
+        "isMajor": true
+      },
+      {
+        "version": "v2.5",
+        "date": "2023-06-13",
+        "description": "Introduced collaborative features for teams."
+      },
+      {
+        "version": "v2.1",
+        "date": "2023-05-07",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-04-29",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-03-02",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "description": "Data framework for LLM applications.",
+    "categories": [
+      "Developer Tools",
+      "Open Source"
+    ],
+    "pricing": "Free",
+    "website": "https://www.llamaindex.ai",
+    "logo": "https://www.llamaindex.ai/favicon.ico",
+    "tags": [
+      "Data",
+      "RAG"
+    ],
+    "rating": 4.7,
+    "reviewCount": 935,
+    "launches": [
+      {
+        "version": "v2.1",
+        "date": "2023-04-22",
+        "description": "Added API support and developer tools."
+      },
+      {
+        "version": "v2.0",
+        "date": "2023-02-02",
+        "description": "Major overhaul with new AI engine and UI redesign.",
+        "isMajor": true
+      },
+      {
+        "version": "v1.2",
+        "date": "2023-01-16",
+        "description": "Performance improvements and bug fixes."
+      }
+    ]
+  }
+]
