@@ -14,7 +14,7 @@ This project is a modern, responsive content directory designed to showcase AI t
 ##  Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript (Strict)
+- **Language**: TypeScript 
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Theming**: next-themes
@@ -38,7 +38,7 @@ The dataset was **generated programmatically** using custom Node.js scripts (`up
 
 ### Tech Stack
 -   **Framework**: Next.js 14 (App Router)
--   **Language**: TypeScript (Strict)
+-   **Language**: TypeScript 
 -   **Styling**: Tailwind CSS
 -   **Animation**: Framer Motion (Scroll animations, hero effects)
 -   **Icons**: Lucide React
