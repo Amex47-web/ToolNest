@@ -31,7 +31,7 @@ export default function SignupPage() {
 
                     <div className="text-center mb-8">
                         <Link href="/" className="inline-flex items-center justify-center mb-6">
-                            <Logo className="h-10 w-10" showText={true} />
+                            <Logo showText={true} />
                         </Link>
                         <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">Create an account</h1>
                         <p className="text-zinc-500 dark:text-zinc-400 mt-2">Join thousands of creators today</p>
