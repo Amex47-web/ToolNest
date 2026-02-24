@@ -44,7 +44,8 @@ export default function LoginPage() {
                 }
             });
             router.push("/");
-        } catch (err: any) {
+        } catch (error: unknown) {
+            const err = error as { code?: string; message?: string };
             console.error(err);
             setError("Invalid email or password");
         } finally {
@@ -141,7 +142,7 @@ export default function LoginPage() {
                     </div>
 
                     <p className="mt-8 text-center text-sm text-zinc-500">
-                        Don't have an account?{" "}
+                        Don&apos;t have an account?{" "}
                         <Link href="/signup" className="text-indigo-600 hover:text-indigo-500 font-semibold hover:underline">
                             Sign up
                         </Link>

@@ -57,7 +57,7 @@ export default async function Home() {
               <span className="text-indigo-600 dark:text-indigo-400 inline-block">AI Tools</span> for Your Workflow
             </h1>
             <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Stop searching endlessly. We've curated the top AI tools to help you build, design, and create faster than ever. Filter the noise and find your signal.
+              Stop searching endlessly. We&apos;ve curated the top AI tools to help you build, design, and create faster than ever. Filter the noise and find your signal.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -104,10 +104,10 @@ export default async function Home() {
             <FadeIn>
               <h2 className="text-4xl font-bold mb-6 text-zinc-900 dark:text-zinc-50">Why ToolNest?</h2>
               <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-6 leading-relaxed">
-                The AI landscape is exploding. Every day, dozens of new tools launch on Product Hunt, Twitter, and specialized forums. It's overwhelming.
+                The AI landscape is exploding. Every day, dozens of new tools launch on Product Hunt, Twitter, and specialized forums. It&apos;s overwhelming.
               </p>
               <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8 leading-relaxed">
-                ToolNest is your compass in the AI gold rush. We manually review, categorize, and tag every tool to ensure you only see what's worth your time. No vaporware, no broken links—just polished, production-ready AI software.
+                ToolNest is your compass in the AI gold rush. We manually review, categorize, and tag every tool to ensure you only see what&apos;s worth your time. No vaporware, no broken links—just polished, production-ready AI software.
               </p>
               <ul className="space-y-4">
                 {[

@@ -8,6 +8,7 @@ import { useAuth } from "@/context/AuthContext";
 import { useState, useRef, useEffect } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
+import Image from "next/image";
 
 export function Navbar() {
     return (
@@ -114,7 +115,7 @@ function AuthButtons() {
                 >
                     <div className="h-8 w-8 rounded-full bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-semibold text-sm border border-indigo-200 dark:border-indigo-800">
                         {user.photoURL ? (
-                            <img src={user.photoURL} alt={user.displayName || "User"} className="h-full w-full rounded-full object-cover" />
+                            <Image src={user.photoURL} alt={user.displayName || "User"} width={32} height={32} unoptimized={true} className="h-full w-full rounded-full object-cover" />
                         ) : (
                             (user.displayName || user.email || "U").charAt(0).toUpperCase()
                         )}

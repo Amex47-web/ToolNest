@@ -7,6 +7,7 @@ import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { updateProfile } from "firebase/auth";
+import Image from "next/image";
 
 export default function ProfilePage() {
     const { user, loading } = useAuth();
@@ -83,7 +84,7 @@ export default function ProfilePage() {
                     <div className="flex items-center gap-6 mb-8">
                         <div className="h-20 w-20 rounded-full bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-bold text-2xl border border-indigo-200 dark:border-indigo-800">
                             {user.photoURL ? (
-                                <img src={user.photoURL} alt={user.displayName || "User"} className="h-full w-full rounded-full object-cover" />
+                                <Image src={user.photoURL} alt={user.displayName || "User"} width={80} height={80} unoptimized={true} className="h-full w-full rounded-full object-cover" />
                             ) : (
                                 (name || user.email || "U").charAt(0).toUpperCase()
                             )}

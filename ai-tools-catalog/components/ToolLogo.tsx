@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface ToolLogoProps {
     src: string;
@@ -39,12 +40,14 @@ export function ToolLogo({ src, alt, className, fallbackText, website }: { src?:
     }
 
     return (
-        <img
+        <Image
             src={imageSrc || ""}
             alt={alt}
             className={className}
             onError={handleError}
-            loading="lazy"
+            width={128}
+            height={128}
+            unoptimized={true}
         />
     );
 }

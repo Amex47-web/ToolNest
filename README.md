@@ -1,4 +1,4 @@
-# ToolNest 
+# ToolNest 🛠️✨
 
 > **The Premier AI Tools Curated Directory**
 
@@ -9,7 +9,7 @@ ToolNest is a full-stack web platform built for discovering, evaluating, and man
 
 ---
 
-##  Key Features
+## 🚀 Key Features
 
 ### Frontend (Client-Side Interactivity)
 - **Advanced Search & Filtering**: Client-side filtering (`ToolBrowser.tsx`) enabling near-instant search across tool names, categories, and pricing dimensions, syncing perfectly with URL parameters for shareable states.
@@ -26,7 +26,7 @@ ToolNest is a full-stack web platform built for discovering, evaluating, and man
 
 ---
 
-##  Tech Stack
+## 💻 Tech Stack
 
 | Domain | Technologies |
 | :--- | :--- |
@@ -39,7 +39,7 @@ ToolNest is a full-stack web platform built for discovering, evaluating, and man
 
 ---
 
-##  Architecture Overview
+## 📂 Architecture Overview
 
 ### `ai-tools-catalog` (Frontend)
 Utilizes the Next.js App Router paradigm. 
@@ -57,7 +57,7 @@ Node JS service for database interactions.
 
 ---
 
-##  Setup & Local Development
+## 🛠️ Setup & Local Development
 
 To run this project locally, you will need Node.js and a MongoDB instance (or Atlas string).
 
@@ -103,11 +103,11 @@ The frontend will be available at `http://localhost:3000` and the API running on
 
 ---
 
-##  Future Roadmap
+## 📈 Future Roadmap
 - [ ] Incorporating WebSockets for real-time multiplayer cursor interactions.
 - [ ] Admin dashboard to curate and instantly ingest new tools using an LLM pipeline.
 - [ ] Server-side pagination and infinite scroll using React Suspense.
 
 ---
 
-
+*This project represents advanced proficiency in building modular, production-ready full-stack applications.*

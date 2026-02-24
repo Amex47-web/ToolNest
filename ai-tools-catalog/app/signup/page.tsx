@@ -63,7 +63,8 @@ export default function SignupPage() {
 
             // 4. Redirect
             router.push("/");
-        } catch (err: any) {
+        } catch (error: unknown) {
+            const err = error as { code?: string; message?: string };
             console.error(err);
             if (err.code === 'auth/email-already-in-use') {
                 setError("An account with this email already exists. Please log in.");

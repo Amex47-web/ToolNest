@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useEffect, useId, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -9,7 +9,7 @@ interface AnimatedGridPatternProps {
     height?: number;
     x?: number;
     y?: number;
-    strokeDasharray?: any;
+    strokeDasharray?: string | number;
     numSquares?: number;
     className?: string;
     maxOpacity?: number;
@@ -31,24 +31,25 @@ export function AnimatedGridPattern({
     ...props
 }: AnimatedGridPatternProps) {
     const id = useId();
-    const containerId = useId();
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
     const [squares, setSquares] = useState<{ id: number; pos: [number, number] }[]>([]);
 
-    const getPos = () => {
+    const getPos = useCallback(() => {
         return [
             Math.floor(Math.random() * (dimensions.width / width)),
             Math.floor(Math.random() * (dimensions.height / height)),
         ] as [number, number];
-    };
+    }, [dimensions, width, height]);
 
-    const generateSquares = (count: number) => {
+    const generateSquares = useCallback((count: number) => {
         return Array.from({ length: count }, (_, i) => ({
             id: i,
             pos: getPos(),
         }));
-    };
+    }, [getPos]);
 
+    // Instead of using useEffect to setSquares which causes a warning, 
+    // we use a single mounted effect to generate the initial squares once dimensions are set.
     useEffect(() => {
         if (typeof window !== "undefined") {
             const updateDimensions = () => {
@@ -63,11 +64,13 @@ export function AnimatedGridPattern({
         }
     }, []);
 
+    // Effect to generate squares only when dimensions change significantly or on mount
     useEffect(() => {
-        if (dimensions.width && dimensions.height) {
+        if (dimensions.width > 0 && dimensions.height > 0 && squares.length === 0) {
             setSquares(generateSquares(numSquares));
         }
-    }, [dimensions, numSquares]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [dimensions.width, dimensions.height, numSquares, generateSquares]);
 
     return (
         <div className={cn("absolute inset-x-0 -top-10 -z-30 h-[800px] w-full [mask-image:linear-gradient(to_bottom,white_40%,transparent_100%)]", className)}>

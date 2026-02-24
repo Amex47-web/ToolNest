@@ -2,9 +2,10 @@ import { Tool, ToolPricing } from "@/types";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
 
-async function fetchTools(): Promise<Tool[]> {
+async function fetchTools(queryString: string = ''): Promise<Tool[]> {
     try {
-        const res = await fetch(`${API_URL}/tools`, { cache: 'no-store' });
+        const url = queryString ? `${API_URL}/tools?${queryString}` : `${API_URL}/tools`;
+        const res = await fetch(url, { next: { revalidate: 3600 } });
         if (!res.ok) {
             throw new Error('Failed to fetch tools');
         }
@@ -21,7 +22,7 @@ export async function getAllTools(): Promise<Tool[]> {
 
 export async function getToolBySlug(slug: string): Promise<Tool | undefined> {
     try {
-        const res = await fetch(`${API_URL}/tools/${slug}`, { cache: 'no-store' });
+        const res = await fetch(`${API_URL}/tools/${slug}`, { next: { revalidate: 3600 } });
         if (!res.ok) {
             // Fallback to fetching all and finding if individual endpoint fails or returns 404 handled differently
             // But actually let's trust the endpoint.
@@ -36,22 +37,15 @@ export async function getToolBySlug(slug: string): Promise<Tool | undefined> {
 }
 
 export async function getToolsByCategory(category: string): Promise<Tool[]> {
-    const tools = await fetchTools();
-    return tools.filter((tool) =>
-        tool.categories.some((c) => c.toLowerCase() === category.toLowerCase())
-    );
+    return await fetchTools(`category=${encodeURIComponent(category)}`);
 }
 
 export async function getToolsByPricing(pricing: ToolPricing | string): Promise<Tool[]> {
-    const tools = await fetchTools();
-    return tools.filter(
-        (tool) => tool.pricing.toLowerCase() === pricing.toLowerCase()
-    );
+    return await fetchTools(`pricing=${encodeURIComponent(pricing)}`);
 }
 
 export async function getFeaturedTools(): Promise<Tool[]> {
-    const tools = await fetchTools();
-    return tools.filter((tool) => tool.featured);
+    return await fetchTools(`featured=true`);
 }
 
 // Simulated "Trending" based on popular tools
@@ -90,22 +84,14 @@ export async function getAllCategories(): Promise<string[]> {
 }
 
 export async function getSimilarTools(tool: Tool): Promise<Tool[]> {
-    const tools = await fetchTools();
-    return tools
-        .filter(
-            (t) =>
-                t.id !== tool.id &&
-                t.categories.some((c) => tool.categories.includes(c))
-        )
-        .slice(0, 3);
+    // If the tool has categories, try to get tools from the first category up to a limit
+    // We fetch one category to rely on backend filtering, then filter out the current tool.
+    if (!tool.categories || tool.categories.length === 0) return [];
+
+    const similar = await getToolsByCategory(tool.categories[0]);
+    return similar.filter((t) => t.id !== tool.id).slice(0, 3);
 }
 
 export async function searchTools(query: string): Promise<Tool[]> {
-    const tools = await fetchTools();
-    const q = query.toLowerCase();
-    return tools.filter(
-        (tool) =>
-            tool.name.toLowerCase().includes(q) ||
-            tool.description.toLowerCase().includes(q)
-    );
+    return await fetchTools(`search=${encodeURIComponent(query)}`);
 }

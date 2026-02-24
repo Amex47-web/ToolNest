@@ -2,11 +2,10 @@
 
 import { Tool } from "@/types";
 import { ToolCard } from "@/components/ToolCard";
-import { useState, useEffect } from "react";
-import { Search, X, Filter, Sparkles } from "lucide-react";
+import { useState, useEffect, useMemo } from "react";
+import { Search, X } from "lucide-react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { FadeInStagger, FadeInItem } from "@/components/FadeIn";
-import { cn } from "@/lib/utils";
 
 interface ToolBrowserProps {
     initialTools: Tool[];
@@ -21,8 +20,6 @@ export function ToolBrowser({ initialTools, allCategories }: ToolBrowserProps) {
     const [searchQuery, setSearchQuery] = useState(searchParams.get("q") || "");
     const [selectedCategory, setSelectedCategory] = useState(searchParams.get("category") || "");
     const [selectedPricing, setSelectedPricing] = useState(searchParams.get("pricing") || "");
-    const [filteredTools, setFilteredTools] = useState<Tool[]>(initialTools);
-    const [isPending, setIsPending] = useState(false);
 
     // Update URL on filter change
     useEffect(() => {
@@ -36,8 +33,7 @@ export function ToolBrowser({ initialTools, allCategories }: ToolBrowserProps) {
     }, [searchQuery, selectedCategory, selectedPricing, router, pathname]);
 
     // Filter tools logic
-    useEffect(() => {
-        setIsPending(true);
+    const filteredTools = useMemo(() => {
         let result = initialTools;
 
         if (searchQuery) {
@@ -59,9 +55,7 @@ export function ToolBrowser({ initialTools, allCategories }: ToolBrowserProps) {
             result = result.filter((tool) => tool.pricing.toLowerCase() === selectedPricing.toLowerCase());
         }
 
-        setFilteredTools(result);
-        // Short timeout to allow UI update before removing pending state for smoother feel
-        setTimeout(() => setIsPending(false), 300);
+        return result;
     }, [initialTools, searchQuery, selectedCategory, selectedPricing]);
 
     const clearFilters = () => {
@@ -163,7 +157,7 @@ export function ToolBrowser({ initialTools, allCategories }: ToolBrowserProps) {
                         </div>
                         <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50 mb-2">No tools found</h3>
                         <p className="text-zinc-500 dark:text-zinc-400 text-center max-w-sm mb-6">
-                            We couldn't find any tools matching your search criteria. Try using broader terms or clearing your filters.
+                            We couldn&apos;t find any tools matching your search criteria. Try using broader terms or clearing your filters.
                         </p>
                         <button
                             onClick={clearFilters}

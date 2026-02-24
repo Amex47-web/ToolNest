@@ -1,8 +1,13 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const dataPath = path.join(__dirname, 'data/ai-tools.json');
-const tools = require(dataPath);
+
+import toolsData from './data/ai-tools.json' assert { type: 'json' };
+const tools = toolsData;
 
 // Function to generate a random rating between 4.0 and 5.0
 const getRandomRating = () => {

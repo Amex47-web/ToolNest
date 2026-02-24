@@ -2,7 +2,7 @@ import { auth } from './firebase';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
 
-export const logUserActivity = async (action: string, toolSlug?: string, metadata?: any) => {
+export const logUserActivity = async (action: string, toolSlug?: string, metadata?: Record<string, unknown>) => {
     const user = auth.currentUser;
     if (!user) return;
 
